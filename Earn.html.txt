@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premium Ad Reward System</title>
-    <script src='//libtl.com/sdk.js' data-zone='10144078' data-sdk='show_10144078'></script>
+    <script src='//libtl.com/sdk.js' data-zone='10788555' data-sdk='show_10788555'></script>
     <style>
         :root {
             --primary: #00c853;
@@ -495,8 +495,8 @@
             showAdNotification("Loading ad... Please wait");
             
             // Show Monetag ad
-            if (typeof show_10144078 === 'function') {
-                show_10144078().then(() => {
+            if (typeof show_10788555 === 'function') {
+                show_10788555().then(() => {
                     // Ad shown successfully
                     watchedAdsCount++;
                     earnedPoints += POINTS_PER_AD;
